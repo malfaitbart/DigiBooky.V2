@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DigiBooky.V2.Db\DigiBooky.V2.Db.csproj" />
+    <ProjectReference Include="..\DigiBooky.V2.Domain\DigiBooky.V2.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
