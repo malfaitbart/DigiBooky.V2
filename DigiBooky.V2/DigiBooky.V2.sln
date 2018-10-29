@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiBooky.V2.Domain", "DigiBooky.V2.Domain\DigiBooky.V2.Domain.csproj", "{BCAB6962-4836-49E3-9D98-EAB0C2A57BAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigiBooky.V2.Domain", "DigiBooky.V2.Domain\DigiBooky.V2.Domain.csproj", "{BCAB6962-4836-49E3-9D98-EAB0C2A57BAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiBooky.V2.Services", "DigiBooky.V2.Services\DigiBooky.V2.Services.csproj", "{F3356A09-C077-41D5-AFA9-E6987C274130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigiBooky.V2.Services", "DigiBooky.V2.Services\DigiBooky.V2.Services.csproj", "{F3356A09-C077-41D5-AFA9-E6987C274130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiBooky.V2.Serices.Tests", "DigiBooky.V2.Serices.Tests\DigiBooky.V2.Serices.Tests.csproj", "{5DD45CC3-3FC9-4829-9A3E-FF81224B5A71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigiBooky.V2.Serices.Tests", "DigiBooky.V2.Serices.Tests\DigiBooky.V2.Serices.Tests.csproj", "{5DD45CC3-3FC9-4829-9A3E-FF81224B5A71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiBooky.V2.Db", "DigiBooky.V2.Db\DigiBooky.V2.Db.csproj", "{88DDC881-A088-4F0E-B97A-CF6A15E1E2FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigiBooky.V2.Db", "DigiBooky.V2.Db\DigiBooky.V2.Db.csproj", "{88DDC881-A088-4F0E-B97A-CF6A15E1E2FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiBooky.V2.API", "DigiBooky.V2.API\DigiBooky.V2.API.csproj", "{5EA93C3A-DB1A-4BC7-BA12-1D248A19ADC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{88DDC881-A088-4F0E-B97A-CF6A15E1E2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88DDC881-A088-4F0E-B97A-CF6A15E1E2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88DDC881-A088-4F0E-B97A-CF6A15E1E2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA93C3A-DB1A-4BC7-BA12-1D248A19ADC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA93C3A-DB1A-4BC7-BA12-1D248A19ADC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA93C3A-DB1A-4BC7-BA12-1D248A19ADC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA93C3A-DB1A-4BC7-BA12-1D248A19ADC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
